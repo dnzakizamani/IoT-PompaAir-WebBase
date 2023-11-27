@@ -6,15 +6,15 @@
 
 #define MAX_TRYING 3
 
-uint8_t mac_addr[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-uint8_t arduinoIP[] = { 192, 168, x, x };
-uint8_t gatewayIP[] = { 192, 168, x, x };
-uint8_t subnetIP[] = { 255, 255, x, x };
-uint8_t dnsIP[] = { x, x, x, x };
-IPAddress server_addr(192, 168, x, x);
+uint8_t mac_addr[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xEE };
+uint8_t arduinoIP[] = { 192, 168, 28, 190 };
+uint8_t gatewayIP[] = { 192, 168, 29, 254 };
+uint8_t subnetIP[] = { 255, 255, 254, 0 };
+uint8_t dnsIP[] = { 8, 8, 8, 8 };
+IPAddress server_addr(192, 168, 1, 13);
 
 char user[] = "root";
-char password[] = "";
+char password[] = "Bc8574";
 
 EthernetClient client;
 MySQL_Connection conn((Client *)&client);
