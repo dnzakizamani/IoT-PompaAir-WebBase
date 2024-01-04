@@ -11,7 +11,7 @@ Proyek ini adalah implementasi Internet of Things (IoT) yang menggunakan Arduino
 ## Komponen Utama
 
 1. **Arduino Uno**: Digunakan sebagai mikrokontroler untuk mengontrol dan memonitor status pompa.
-2. **Sensor**: Sensor yang digunakan untuk mendeteksi ketinggian air yaitu sensor level air.
+2. **Sensor**: Sensor yang digunakan untuk mendeteksi ketinggian air yaitu sensor jarak.
 3. **Pompa**: Pompa air yang dikendalikan oleh Arduino sesuai dengan kondisi yang diukur oleh sensor.
 4. **Aplikasi Web Laravel dan Angular**: Menampilkan data dari Arduino dan memberikan antarmuka pengguna untuk mengontrol pompa.
 
