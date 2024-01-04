@@ -1,6 +1,8 @@
 # IoT Pompa Air
 
 ![Diagram Proyek](image/ss.png)
+![Diagram Proyek](image/wiring2.png)
+
 
 ## Deskripsi Proyek
 
